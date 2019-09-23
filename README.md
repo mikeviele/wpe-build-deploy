@@ -24,11 +24,11 @@ The latest version of this script will not only deploy your code, the latest ver
 
 ### How do I get set up?
 
-* [Preflight Repo Setup](https://github.com/linchpin/wpengine-codeship-continuous-deployment#preflight-repo-setup)
-* [Configuration](https://github.com/linchpin/wpengine-codeship-continuous-deployment#configuration)
-* [Codeship Environment Variables](https://github.com/linchpin/wpengine-codeship-continuous-deployment#codeship-environment-variables)
+* [Preflight Repo Setup](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#preflight-repo-setup)
+* [Configuration](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#configuration)
+* [Codeship Environment Variables](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#codeship-environment-variables)
 * Deployment instructions
-* [Useful notes](https://github.com/linchpin/wpengine-codeship-continuous-deployment#useful-notes)
+* [Useful notes](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#useful-notes)
 * What this repo needs
 
 ### Preflight Repo Setup
