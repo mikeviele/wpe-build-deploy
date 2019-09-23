@@ -91,7 +91,7 @@ In the script below you will see this script is specifcally for **master** if yo
 In order to deploy to your pipeline you can use the following command regardless of master, develop or a custom branch. We are utilizing `https` instead of `SSH` so we can `git clone` the deployment script without requiring authentication.
 
 ```
-# load our build script from the linchpin repo
+# load our build script from the dev hero repo
 git clone --branch "improvement/build-process" --depth 50 https://github.com/dev-hero/wpengine-codeship-continuous-deployment.git
 chmod 555 ./wpengine-codeship-continuous-deployment/build.sh
 chmod 555 ./wpengine-codeship-continuous-deployment/deploy.sh
