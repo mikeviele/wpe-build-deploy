@@ -92,7 +92,7 @@ In order to deploy to your pipeline you can use the following command regardless
 
 ```
 # load our build script from the linchpin repo
-git clone --branch "improvement/build-process" --depth 50 https://github.com/linchpin/wpengine-codeship-continuous-deployment.git
+git clone --branch "improvement/build-process" --depth 50 https://github.com/dev-hero/wpengine-codeship-continuous-deployment.git
 chmod 555 ./wpengine-codeship-continuous-deployment/build.sh
 chmod 555 ./wpengine-codeship-continuous-deployment/deploy.sh
 chmod 555 ./wpengine-codeship-continuous-deployment/build-deploy.sh
