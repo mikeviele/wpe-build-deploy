@@ -7,7 +7,7 @@ set -e
 
 composer_path="./composer.json"
 package_path="./package.json"
-build_file_path="./gulpfile.js"
+build_file_path="./gulpfile.babel.js"
 bower_file_path="./bower.json"
 build_type=none
 
