@@ -57,7 +57,7 @@ then
 		yarn install
 	
 		# Only build if the build:production task exists in the build path
-		if grep -q build:production "$build_file_path";
+		if grep -q build "$build_file_path";
 		then
 			echo "Building project using gulp"
 			gulp build
@@ -77,7 +77,7 @@ then
 
 	    if [ $build_type = "gulp" ]
 	    then
-		    if grep -q build:production "$build_file_path";
+		    if grep -q build "$build_file_path";
 			then
 			echo "Building project using gulp"
 			gulp build
