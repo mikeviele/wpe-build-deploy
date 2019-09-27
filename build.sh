@@ -60,7 +60,7 @@ then
 		if grep -q build:production "$build_file_path";
 		then
 			echo "Building project using gulp"
-			gulp build:production
+			gulp build
 		fi
 	else
 	    echo "Initiating NPM Install"
@@ -80,7 +80,7 @@ then
 		    if grep -q build:production "$build_file_path";
 			then
 			echo "Building project using gulp"
-			gulp build:production
+			gulp build
 		    fi
 	    else
 	    	    # Make sure we have a build command within our grunt file
