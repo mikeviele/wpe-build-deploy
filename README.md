@@ -24,11 +24,11 @@ The latest version of this script will not only deploy your code, the latest ver
 
 ### How do I get set up?
 
-* [Preflight Repo Setup](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#preflight-repo-setup)
-* [Configuration](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#configuration)
-* [Codeship Environment Variables](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#codeship-environment-variables)
+* [Preflight Repo Setup](https://github.com/dev-hero/wpe-build-deploy#preflight-repo-setup)
+* [Configuration](https://github.com/dev-hero/wpe-build-deploy#configuration)
+* [Codeship Environment Variables](https://github.com/dev-hero/wpe-build-deploy#codeship-environment-variables)
 * Deployment instructions
-* [Useful notes](https://github.com/dev-hero/wpengine-codeship-continuous-deployment#useful-notes)
+* [Useful notes](https://github.com/dev-hero/wpe-build-deploy#useful-notes)
 * What this repo needs
 
 ### Preflight Repo Setup
@@ -41,7 +41,7 @@ When creating your repo, it's important to name the repo using proper folder str
 
 1. Log into **codeship.com** or your deployment method of choice.
 2. Connect your **bitbucket**, **github** or **gitlab** repo to codeship. (You will need to authorize access to your repo)
-3. Setup [Environment Variables](https://github.com/linchpin/wpengine-codeship-continuous-deployment#codeship-environment-variables)
+3. Setup [Environment Variables](https://github.com/linchpin/wpe-build-deploy#codeship-environment-variables)
     * Environment variables are a great way to add flexibility to the script with out having variables hard coded within this script.
     * You should never have any credentials stored within this or any other repo.
 4. Create deployment pipeline for each branch you are going to add automated deployments to (For single install setups use **"master"** and **"develop"**. For multi-environment setups use **master**, **staging**, and **"develop"**). The pipelines you create are going to utilize the **deployment script below**
@@ -92,11 +92,11 @@ In order to deploy to your pipeline you can use the following command regardless
 
 ```
 # load our build script from the dev hero repo
-git clone --branch "master" --depth 50 https://github.com/dev-hero/wpengine-codeship-continuous-deployment.git
-chmod 555 ./wpengine-codeship-continuous-deployment/build.sh
-chmod 555 ./wpengine-codeship-continuous-deployment/deploy.sh
-chmod 555 ./wpengine-codeship-continuous-deployment/build-deploy.sh
-./wpengine-codeship-continuous-deployment/build-deploy.sh
+git clone --branch "master" --depth 50 https://github.com/dev-hero/wpe-build-deploy.git
+chmod 555 ./wpe-build-deploy/build.sh
+chmod 555 ./wpe-build-deploy/deploy.sh
+chmod 555 ./wpe-build-deploy/build-deploy.sh
+./wpe-build-deploy/build-deploy.sh
 ```
 
 ## Useful Notes
