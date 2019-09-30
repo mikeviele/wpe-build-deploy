@@ -3,7 +3,7 @@
 set -e
 
 # Call our build script
-bash ./wpengine-codeship-continuous-deployment/build.sh
+bash ./wpe-build-deploy/build.sh
 
 # Call our deploy script after the build has been completed without any errors
-bash ./wpengine-codeship-continuous-deployment/deploy.sh
+bash ./wpe-build-deploy/deploy.sh
