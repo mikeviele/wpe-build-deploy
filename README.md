@@ -37,7 +37,7 @@ When creating your repo, it's important to name the repo using proper folder str
 
 **Important Note:** All assets/files within your repo should be within the root folder. **DO NOT** include `wp-content`, `wp-content\plugins` etc. The deploy script will create all the appropriate folders as needed.
 
-### Configuration
+### Codeship Configuration
 
 1. Log into **codeship.com**.
 2. Connect your **bitbucket**, **github** or **gitlab** repo to Codeship. (You will need to authorize access to your repo)
