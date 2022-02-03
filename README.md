@@ -4,7 +4,7 @@ This shell script is intended to leverage WP engines Git push functionality in c
 
 This code assumes you know how to use git and also how to push commits to a repository and manage PR's and merges.
 
-This repository was originally forked from (https://github.com/linchpin/wpengine-codeship-continuous-deployment), but that fork was detached to avoid disruption in the even the original repo was removed from Github and due to the fact that we have made several major changes to the build and deploy scripting since our original fork. We like to give credit where credit is due and we worked with Linchpin (https://linchpin.com) on modifications to the original repo back in March of 2019 before porting it over for our own use.
+This repository was originally forked from (https://github.com/linchpin/wpengine-codeship-continuous-deployment), but that fork was detached to avoid disruption in the event the original repo was removed from Github and due to the fact that we have made several major changes to the build and deploy scripting since our original fork. We like to give credit where credit is due and we worked with Linchpin (https://linchpin.com) on modifications to the original repo back in March of 2019 before porting it over for our own use.
 
 # Current Build / Deploy Release as of 2022
 
