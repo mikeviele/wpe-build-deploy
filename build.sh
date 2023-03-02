@@ -63,8 +63,8 @@ then
 			npm run build
 		fi
 	else
-	    echo "Initiating NPM Install"
-	    npm install
+	    echo "Skipping NPM Install"
+	    # npm install
 
 	    # Only install and fire bower if we have a bower.json
 	    if [ -f "$bower_file_path" ]
